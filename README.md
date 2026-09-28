@@ -1,6 +1,7 @@
-# GPU-Accelerated Physics Simulations (CUDA)
+# GPU-Accelerated Physics Simulations with CuPy
 
-This repository contains an interactive simulation environment designed to analyze the dynamics of soft bodies and elastic membranes using mass-spring systems. The core of the project utilizes CUDA kernels written in C++ and executed through CuPy to process thousands of force and position calculations in parallel, enabling smooth real-time simulations or high-fidelity video generation.
+This repository contains an interactive simulation environment designed to analyze the dynamics of soft bodies and elastic membranes using mass-spring systems. The simulation uses CuPy to perform numerical operations on GPU-backed arrays.
+Mass positions, velocities, forces and spring interactions are represented as arrays, allowing many calculations to be executed in parallel on the GPU.
 
 <div align="center">
   <img src="Propagación-Membrana/demo-simulacion-membrana.gif" width="250" />
