@@ -21,8 +21,8 @@ The repository is divided into two main sections, each located in its own folder
 
 ## Technical Requirements
 Since physics calculations are delegated to the graphics card, the following hardware and software are essential:  
-* **GPU:** NVIDIA card compatible with CUDA architecture (tested on an RTX 3050 Ti).  
-* **Software:** NVIDIA CUDA Toolkit installed on the system.  
+* **GPU:** NVIDIA card compatible with CuPy architecture (tested on an RTX 3050 Ti).  
+* **Software:** NVIDIA CuPy Toolkit installed on the system.  
 
 ### Python Libraries:  
 * `cupy`: GPU parallel processing.  
